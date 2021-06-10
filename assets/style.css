@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eec0c6;
+    background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    width: 350px;
+    height: 500px;
+    padding: 20px 20px;
+    padding-bottom: 0;
+    padding-top: 15px;
+    background: #f7f7f7;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.cal_display {
+    padding: 10px;
+    background: #495365;
+    border-radius: 3px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.35) 0px 1px 3px -1px;
+}
+.cal_display input{
+    width: 100%;
+    height: 50px;
+    padding-left: 15px;
+    font-size: 20px;
+    border: 2px solid #333;
+    color: #000;
+    background: #7E978B;
+}
+.cal_display input:focus{
+    outline: none;
+}
+.cal_buttons {
+    margin-top: 40px;
+}
+
+.cal_buttons .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    width: 60px;
+    height: 40px;
+    background: #5B5B5B;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: rgba(99, 99, 99, 0.6) 0px 2px 8px 0px;
+}
+.button button{
+    background: transparent;
+    color: #ccc;
+    border: none;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.button.button_big {}
